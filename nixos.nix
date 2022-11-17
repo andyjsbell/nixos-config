@@ -56,14 +56,14 @@ in
   # required for zsh autocomplete
   environment.pathsToLink = [ "/share/zsh" ];
 
-  users.users.cor = {
+  users.users.andy = {
     isNormalUser = true;
-    home = "/home/cor";
+    home = "/home/andy";
     extraGroups = [ "docker" "wheel" ];
     shell = pkgs.zsh;
-    hashedPassword = "$6$sb3eB/EbsWnfAqzy$szu0h/hbX9/23n5RKE0dwzV8lmq.1Yj2NzI/jYQxJZIbzmY8dpIYRdhUVZgCMnR0CeqrQfgzs6FtPoGUiCqDR0";
+    hashedPassword = "$6$jadU6IylOse2q5On$IuezLZyCxiYHHWuR/Zg4wWIHPBlSTZzsAGO.HJkPjey6Vr8wbhsW7Hb4jTu.Jlzd2IBmbIXAgEJ4WvBP3OnPs1";
     openssh.authorizedKeys.keys = [
-      "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIIYMXAekVupSqJ2gDqJvtehePc+J8J7gZant6C4375H3 cor@pruijs.nl"
+      "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIPopqVgaOgkEk7Ex4w9M7FEafl6MzhTIlLhLnCAk8NNw andyjsbell@gmail.com"
     ];
   };
 }

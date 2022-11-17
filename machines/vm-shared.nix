@@ -56,7 +56,7 @@
   # };
 
   # Select internationalisation properties.
-  i18n.defaultLocale = "en_US.UTF-8";
+  i18n.defaultLocale = "es_ES.UTF-8";
 
   # setup windowing environment
   services.xrdp.defaultWindowManager = "awesome";

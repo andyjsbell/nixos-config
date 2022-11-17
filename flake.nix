@@ -32,7 +32,7 @@
   outputs = { self, darwin, nixpkgs, home-manager, flake-utils, ... }@inputs:
     let 
       mkVM = import ./lib/mkvm.nix; 
-      user = "cor";
+      user = "andy";
       overlays = [];
     in
     {
@@ -91,13 +91,13 @@
           modules = [ 
             ./darwin-configuration.nix 
             home-manager.darwinModules.home-manager {
-              users.users.cor = {
-                name = "cor";
-                home = "/Users/cor";
+              users.users.andy = {
+                name = "andy";
+                home = "/Users/andy";
               };
               home-manager.useGlobalPkgs = true;
               home-manager.useUserPackages = true;
-              home-manager.users.cor = import ./home-darwin.nix;
+              home-manager.users.andy = import ./home-darwin.nix;
     	        home-manager.extraSpecialArgs = { inherit inputs; };
             }
           ];

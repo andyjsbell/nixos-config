@@ -159,12 +159,12 @@ in
             sha256 = "sha256:0sj5najixk40r1hjf9kzq2jns6klfsmipwdj8jl5z76chx9pi3hs";
             version = "1.67.2";
           })
-          (createChromiumExtension {
-            # 1password
-            id = "aeblfdkhhhdcdjpifhhbdiojplfjncoa";
-            sha256 = "sha256:0ccvpi88s3c1psb5ipkz4cch89ib6h3g9nw8qbxzwvnzh72qg8rl";
-            version = "2.4.1";
-          })
+          # (createChromiumExtension {
+          #   # 1password
+          #   id = "aeblfdkhhhdcdjpifhhbdiojplfjncoa";
+          #   sha256 = "sha256:0ccvpi88s3c1psb5ipkz4cch89ib6h3g9nw8qbxzwvnzh72qg8rl";
+          #   version = "2.4.1";
+          # })
           (createChromiumExtension {
             # Empty new tab
             id = "dpjamkmjmigaoobjbekmfgabipmfilij";
@@ -223,7 +223,7 @@ in
     package = pkgs-unstable.flameshot;
     settings = {
       General = {
-        savePath = "/home/cor/Screenshots";
+        savePath = "/home/andy/Screenshots";
         showStartupLaunchMessage = false;
         disabledTrayIcon = true;
         filenamePattern = "%F-%H%M%S";

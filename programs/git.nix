@@ -1,14 +1,14 @@
 {
     enable = true;
-    userName = "cor";
-    userEmail = "cor@pruijs.dev";
+    userName = "andy";
+    userEmail = "andyjsbell@gmail.com";
     lfs.enable = true;
     signing = {
       signByDefault = true;
-      key = "06A6337C2BDD1365883C0668DB347466107E589F";
+      key = "CC541E0B4BE3F3DB182BBED34E2924541180933B";
     };
     extraConfig = {
       color.ui = true;
-      github.user = "cor";
+      github.user = "andy";
     };
   }
